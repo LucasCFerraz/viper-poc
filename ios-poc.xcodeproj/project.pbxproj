@@ -8,12 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		D643C1751F39E3E600D338B9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D643C1741F39E3E600D338B9 /* AppDelegate.swift */; };
-		D643C1771F39E3E600D338B9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D643C1761F39E3E600D338B9 /* ViewController.swift */; };
+		D643C1771F39E3E600D338B9 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D643C1761F39E3E600D338B9 /* LoginViewController.swift */; };
 		D643C17A1F39E3E600D338B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D643C1781F39E3E600D338B9 /* Main.storyboard */; };
 		D643C17C1F39E3E600D338B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D643C17B1F39E3E600D338B9 /* Assets.xcassets */; };
 		D643C17F1F39E3E600D338B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D643C17D1F39E3E600D338B9 /* LaunchScreen.storyboard */; };
 		D643C18A1F39E3E600D338B9 /* ios_pocTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D643C1891F39E3E600D338B9 /* ios_pocTests.swift */; };
 		D643C1951F39E3E600D338B9 /* ios_pocUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D643C1941F39E3E600D338B9 /* ios_pocUITests.swift */; };
+		D643C1A41F39E48700D338B9 /* LoginPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D643C1A31F39E48700D338B9 /* LoginPresenter.swift */; };
+		D643C1A61F39E49000D338B9 /* LoginWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = D643C1A51F39E49000D338B9 /* LoginWireframe.swift */; };
+		D643C1A81F39E49E00D338B9 /* LoginInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D643C1A71F39E49E00D338B9 /* LoginInteractor.swift */; };
+		D643C1AA1F39E4B000D338B9 /* LoginDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D643C1A91F39E4B000D338B9 /* LoginDataManager.swift */; };
+		D643C1AC1F39E67900D338B9 /* LoginContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = D643C1AB1F39E67900D338B9 /* LoginContract.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +41,7 @@
 /* Begin PBXFileReference section */
 		D643C1711F39E3E600D338B9 /* ios-poc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-poc.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D643C1741F39E3E600D338B9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D643C1761F39E3E600D338B9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D643C1761F39E3E600D338B9 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		D643C1791F39E3E600D338B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D643C17B1F39E3E600D338B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D643C17E1F39E3E600D338B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +52,11 @@
 		D643C1901F39E3E600D338B9 /* ios-pocUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ios-pocUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D643C1941F39E3E600D338B9 /* ios_pocUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_pocUITests.swift; sourceTree = "<group>"; };
 		D643C1961F39E3E600D338B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D643C1A31F39E48700D338B9 /* LoginPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPresenter.swift; sourceTree = "<group>"; };
+		D643C1A51F39E49000D338B9 /* LoginWireframe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginWireframe.swift; sourceTree = "<group>"; };
+		D643C1A71F39E49E00D338B9 /* LoginInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginInteractor.swift; sourceTree = "<group>"; };
+		D643C1A91F39E4B000D338B9 /* LoginDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginDataManager.swift; sourceTree = "<group>"; };
+		D643C1AB1F39E67900D338B9 /* LoginContract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginContract.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +107,8 @@
 		D643C1731F39E3E600D338B9 /* ios-poc */ = {
 			isa = PBXGroup;
 			children = (
+				D643C1A21F39E3FB00D338B9 /* Login */,
 				D643C1741F39E3E600D338B9 /* AppDelegate.swift */,
-				D643C1761F39E3E600D338B9 /* ViewController.swift */,
 				D643C1781F39E3E600D338B9 /* Main.storyboard */,
 				D643C17B1F39E3E600D338B9 /* Assets.xcassets */,
 				D643C17D1F39E3E600D338B9 /* LaunchScreen.storyboard */,
@@ -123,6 +133,19 @@
 				D643C1961F39E3E600D338B9 /* Info.plist */,
 			);
 			path = "ios-pocUITests";
+			sourceTree = "<group>";
+		};
+		D643C1A21F39E3FB00D338B9 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				D643C1761F39E3E600D338B9 /* LoginViewController.swift */,
+				D643C1A31F39E48700D338B9 /* LoginPresenter.swift */,
+				D643C1A51F39E49000D338B9 /* LoginWireframe.swift */,
+				D643C1A71F39E49E00D338B9 /* LoginInteractor.swift */,
+				D643C1A91F39E4B000D338B9 /* LoginDataManager.swift */,
+				D643C1AB1F39E67900D338B9 /* LoginContract.swift */,
+			);
+			path = Login;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,8 +279,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D643C1771F39E3E600D338B9 /* ViewController.swift in Sources */,
+				D643C1A41F39E48700D338B9 /* LoginPresenter.swift in Sources */,
+				D643C1AA1F39E4B000D338B9 /* LoginDataManager.swift in Sources */,
+				D643C1771F39E3E600D338B9 /* LoginViewController.swift in Sources */,
+				D643C1A61F39E49000D338B9 /* LoginWireframe.swift in Sources */,
+				D643C1A81F39E49E00D338B9 /* LoginInteractor.swift in Sources */,
 				D643C1751F39E3E600D338B9 /* AppDelegate.swift in Sources */,
+				D643C1AC1F39E67900D338B9 /* LoginContract.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,6 +453,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = NERN369JLD;
 				INFOPLIST_FILE = "ios-poc/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "blg.ios-poc";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -439,6 +468,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = NERN369JLD;
 				INFOPLIST_FILE = "ios-poc/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "blg.ios-poc";
 				PRODUCT_NAME = "$(TARGET_NAME)";
